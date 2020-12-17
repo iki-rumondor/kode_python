@@ -1,0 +1,11 @@
+list_nomor = [13, 16, 14, 21, 76, 23]
+
+i = 0
+jumlah_data = len(list_nomor)
+
+for n in list_nomor: # for atau perulangan untuk mencari rangking
+    rangking = 1
+    if list_nomor[i] < n:
+        rangking += 1
+
+print(rangking)
