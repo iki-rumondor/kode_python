@@ -1,0 +1,14 @@
+
+list_nomor = [13, 16, 14, 21, 76, 23]
+
+cari = 2
+ditemukan = 0
+
+for n in list_nomor :
+  if cari == n :
+    print("Nomor ditemukan")
+    ditemukan = 1
+    break
+
+if ditemukan == 0 :
+  print("Nomor tidak ditemukan")
